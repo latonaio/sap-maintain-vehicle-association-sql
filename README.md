@@ -11,7 +11,9 @@ https://api.sap.com/api/VehicleObjectAssociationAPI/overview
 ## sqlの設定ファイル
 sap-maintain-vehicle-association-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
-* sap-vehicle-invoice-data.sql（車両関連 - 車両請求書）  
+* sap-maintain-vehicle-association-sap-vehicle-invoice-data.sql（SAP車両関連 - 車両請求書データ）
+* sap-maintain-vehicle-association-sap-vehicle-procurement-data.sql（SAP車両関連 - 車両調達データ）
+* sap-maintain-vehicle-association-sap-vehicle-registration-data.sql（SAP車両関連 - 車両登録情報データ）
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。

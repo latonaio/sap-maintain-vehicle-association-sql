@@ -1,9 +1,9 @@
-CREATE TABLE `sap_vehicle_invoice_data`
+CREATE TABLE `sap_maintain_vehicle_association_sap_vehicle_invoice_data`
 (
+            `id`                            varchar(36) NOT NULL,
             `vehicleID`                     varchar(32) DEFAULT NULL,
             `number`                        varchar(10) DEFAULT NULL,
             `itemNumber`                    varchar(10) DEFAULT NULL,
-            `id`                            varchar(36) NOT NULL,
             `categoryCode`                  varchar(1) DEFAULT NULL,
             `categoryName`                  varchar(7) DEFAULT NULL,
             `date`                          varchar(10) DEFAULT NULL,
@@ -40,4 +40,4 @@ CREATE TABLE `sap_vehicle_invoice_data`
             `changedAt`                     varchar(20) DEFAULT NULL,
     PRIMARY KEY(`id`)
 ) ENGINE = InnoDB
- DEFAULT CHARSET = utf8mb4
+ DEFAULT CHARSET = utf8mb4;
